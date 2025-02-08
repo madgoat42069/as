@@ -1,0 +1,89 @@
+.game-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 1rem;
+  min-width: 400px;
+}
+
+.menu-button {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  background: #4CAF50;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu-button:hover {
+  background: #45a049;
+}
+
+.difficulty-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.difficulty-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.difficulty-button {
+  padding: 0.5rem 1rem;
+  background: #2196F3;
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.difficulty-button:hover {
+  background: #1976D2;
+}
+
+.difficulty-button.active {
+  background: #1565C0;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.game-over button {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  background: #4CAF50;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.game-over button:hover {
+  background: #45a049;
+} 
