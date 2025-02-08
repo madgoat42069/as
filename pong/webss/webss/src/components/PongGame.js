@@ -38,7 +38,7 @@ const PongGame = () => {
     const INITIAL_BALL_SPEED = 7;
     const MAX_BALL_SPEED = 18;
     const SPEED_INCREASE = 0.5;
-    const WINNING_SCORE = 15;
+    const WINNING_SCORE = 3;
     
     // AI difficulty settings
     const AI_SETTINGS = {
